@@ -1,13 +1,12 @@
 body{
-    background-color:rgb(188, 215, 206);
-
+    background-color: rgb(223, 162, 215);
 }
 
 .main{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(33, 118, 215,0.8);
     color:black;
     height:auto;
-    width: 30%;
+    width:30%;
     min-width: 6cm;
     border: 2px solid rgb(101, 210, 101);
     position: absolute;
@@ -18,11 +17,9 @@ body{
 
 .main h1{
    display:block;
-   background-color: rgb(75, 75, 231);
+   background-color: rgb(80, 80, 219);
    color:white;
   border-bottom:3px solid yellow;
-  
-  
    border-width: 3px;
    text-align: center;
    font-size:xx-large;
@@ -33,38 +30,73 @@ body{
 }
 
 .main .form{
-    margin:10%;
+   
+    margin: 1cm 10%  0.5cm;
+   
+    
 
 }
+.main .form label{
+    margin-top:1cm;
+}
 
-input{
-    margin:10px;
+.main input{
+    
+    margin:5px;
     height:30px;
     width:80%;
     min-width:auto;
+    position:relative;
+    left:1cm;
 
 }
 
-.form input[value="sign in"]{
+.middle{
     display: block;
+    margin:auto;
+    margin-top:10px;
+    
+}
+
+.btn_pri{
+    
     color:white;
     background-color: rgb(75, 75, 231);
-    margin:auto;
-    margin-top:1cm;
-    width:2cm;
-    padding:3px 5px;
+    padding:2px 5px;
     border-style:hidden;
     border-radius: 5px;
     
 }
 
-.form input[value="sign in"]:hover{
-    background-color: rgb(59, 59, 181);
-    border:2px solid black;
+#login_or_sign_in_secondary{
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn_pri:hover{
+    background-color:rgb(51, 51, 161);
+
+}
+
+.btn_sec:hover{
+    color:blue;
+    text-decoration: underline;
+    
+
+}
+div.other_way_to_sign_in{
+   
+    margin:5px 10%;
+    margin-top:20px;
+    margin-bottom:1cm;
+}
+
+.other_way_to_sign_in button img{
+            height:20px;
+            width:20px;
+            border-radius: 50px;
+            margin:10px;
+           
 }
 
 
-a[href="log_in.css"]{
-    display:block;
-    margin:auto;
-}
