@@ -1,102 +1,76 @@
+*{
+    color:white;
+   
+    box-sizing: border-box;
+}
+
 body{
-    background-color: rgb(223, 162, 215);
+    font-size:17px;
+    font-family:verdena;
+    font-size:17px;
+    background-image:url("../photos/starry-night-sky-over-a-river-92a8ngoxc7yvj8tb.jpg");
+    
+    background-repeat:repeat-y;
+    background-size:100% 100%;
+    background-attachment:fixed;
+
 }
 
 .main{
-    background-color: rgba(33, 118, 215,0.8);
-    color:black;
-    height:auto;
-    width:30%;
-    min-width: 6cm;
-    border: 2px solid rgb(101, 210, 101);
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-}
-
-.main h1{
-   display:block;
-   background-color: rgb(80, 80, 219);
-   color:white;
-  border-bottom:3px solid yellow;
-   border-width: 3px;
-   text-align: center;
-   font-size:xx-large;
-   margin: 0px;
-   padding:10px;
-
-
-}
-
-.main .form{
-   
-    margin: 1cm 10%  0.5cm;
-   
-    
-
-}
-.main .form label{
-    margin-top:1cm;
-}
-
-.main input{
-    
-    margin:5px;
-    height:30px;
-    width:80%;
-    min-width:auto;
-    position:relative;
-    left:1cm;
-
-}
-
-.middle{
-    display: block;
-    margin:auto;
-    margin-top:10px;
-    
-}
-
-.btn_pri{
-    
-    color:white;
-    background-color: rgb(75, 75, 231);
-    padding:2px 5px;
     border-style:hidden;
-    border-radius: 5px;
-    
-}
-
-#login_or_sign_in_secondary{
-    text-align: center;
-    text-decoration: none;
-}
-
-.btn_pri:hover{
-    background-color:rgb(51, 51, 161);
-
-}
-
-.btn_sec:hover{
-    color:blue;
-    text-decoration: underline;
-    
-
-}
-div.other_way_to_sign_in{
+    display:inline-block;
+   background-color:rgba(8, 26, 63, 0.5);
+   box-shadow:0 0 10px #9ecaed;
+   min-width:15cm;
+   min-height:12cm;
+   position:absolute;
+   left:50%;
+   top:50%;
+   transform:translate(-50%,-50%);
+  
    
-    margin:5px 10%;
-    margin-top:20px;
-    margin-bottom:1cm;
+   
+}
+.main  h1, .below-form{
+    text-align: center;
+}
+.main .form, .main .below-form{
+   margin:5% 20%;
+   padding:3px;
 }
 
-.other_way_to_sign_in button img{
-            height:20px;
-            width:20px;
-            border-radius: 50px;
-            margin:10px;
-           
+.main .form .input_label {
+    margin-bottom:20px;
+    border-style:solid;
+    width:auto;
+    padding:5px;
+    
 }
+.main input{
+    padding:5px;
+    border-radius:5px;
+    border-style:hidden;
+    width:auto;
+    background-color:inherit;
+
+
+}
+input:focus{
+    outline:none;
+    
+}
+input[type="submit"]{
+    display:block;
+    width:20%;
+    font-weight: bold;
+    margin:auto;
+    color:white;
+    /* box-shadow:0 0 10px #85b8e1; */
+   background-color:rgb(54, 54, 241);
+
+}
+
+
+
 
 
